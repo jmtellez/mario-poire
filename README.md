@@ -4,7 +4,7 @@
 
 Recreate this landing page using html/css and bootstrap
 
- ![solution](solution/img/solution.PNG)
+ ![solution](public/img/solution.PNG)
 
 Landing site should have the following:
 * Background image
@@ -14,7 +14,7 @@ Landing site should have the following:
     * Title
 * Button
 
- ![solution-hover](solution/img/solution-hover.PNG)
+ ![solution-hover](public/img/solution-hover.PNG)
  
  > Button should have a transition on hover
 
