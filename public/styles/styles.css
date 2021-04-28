@@ -27,6 +27,7 @@ html, body {
 h1.color {
     color: white;
     font-size: 200%;
+    font-family: 'Exo', sans-serif;
   }
   @media (min-width: 1200px) {
     h1, .h1 {
@@ -37,6 +38,7 @@ h1.color {
   h3.color {
     color: yellow;
     font-size: 400%;
+    font-family: 'Exo', sans-serif;
   }
   @media (min-width: 1200px) {
     h3, .h3 {
