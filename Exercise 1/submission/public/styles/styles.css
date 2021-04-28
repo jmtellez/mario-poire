@@ -24,10 +24,10 @@ html, body {
 	text-align: center;
 }
 
-h1.color {
+h4.color {
     color: white;
-    font-size: 200%;
     font-family: 'Exo', sans-serif;
+
   }
   @media (min-width: 1200px) {
     h1, .h1 {
@@ -35,39 +35,29 @@ h1.color {
     }
   }
 
-  h3.color {
+  h1.color {
     color: yellow;
-    font-size: 400%;
     font-family: 'Exo', sans-serif;
+
   }
   @media (min-width: 1200px) {
-    h3, .h3 {
+    h4, .h4 {
       font-size: 400%;
     }
   }
 
-  .button {
-    border-radius: 4px;
-    background-color: #69119c;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-  }
-  
-  .button span {
+
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #69119c !important;
+}
+  .btn span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
   
-  .button span:after {
+  .btn span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -76,11 +66,11 @@ h1.color {
     transition: 0.5s;
   }
   
-  .button:hover span {
+  .btn:hover span {
     padding-right: 25px;
   }
   
-  .button:hover span:after {
+  .btn:hover span:after {
     opacity: 1;
     right: 0;
   }
