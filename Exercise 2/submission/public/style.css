@@ -4,6 +4,8 @@ h1 {
 }
 
 .robots {
+		display: flex;
+		justify-content: space-around;
 }
 
 .head, 
@@ -24,7 +26,7 @@ h1 {
 } 
 
 .eyes {
-	
+	display: flex;
 }
 
 .head:hover {
@@ -51,7 +53,13 @@ h1 {
 .right_arm { 
 	margin-left: 10px; 
 } 
-
+.right_arm:hover {
+	-webkit-transform: rotate(120deg);
+    -moz-transform: rotate(12deg);
+    -o-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
 .torso { 
 	width: 200px; 
 	height: 200px;
@@ -63,7 +71,7 @@ h1 {
 	height: 200px;
 	/* This is another useful property. Hmm what do you think it does?*/
 	margin: 0 auto;
-
+	display: flex;
 } 
 
 .left_leg, .right_leg { 
@@ -73,7 +81,7 @@ h1 {
 } 
 
 .left_leg { 
-	margin-left: 45px; 
+	margin-left: 30px; 
 } 
 
 .left_leg:hover {
@@ -85,7 +93,7 @@ h1 {
 }
 
 .right_leg { 
-	margin-left: 30px; 
+	margin-left: 45px; 
 }
 
 .left_eye, .right_eye { 
