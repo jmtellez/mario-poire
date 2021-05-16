@@ -19,7 +19,7 @@ var firstName = person.firstName;
 var lastName = person.lastName;
 var age = person.age;
 var eyeColor = person.eyeColor;
-
+var city = "houston";
 
 // Object properties
 var a = 'test';
