@@ -6,7 +6,7 @@ def rem_vowel(s): #Removes Vowels.
   
 while True:
     s = input("Enter a string: ")
-    if s.islower() == True and len(s) >= 1 and len(s) <= 1000: #Checks to see ther the string length is between 1 and 1000 as well as lowercase.
+    if s.islower() == True and len(s) >= 1 and len(s) <= 1000: #Checks to see that the string length is between 1 and 1000 as well as lowercase.
         rem_vowel(s)
         break
     else: #Prompts user to enter a string again if constraints aren't met.
